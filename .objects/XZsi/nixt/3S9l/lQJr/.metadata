@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Logon",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "lQJri8hSrUSLYPzh6hGoZw",
+  "Reference": "n_ONu_ASNUGTQtyrWizl0A/lQJri8hSrUSLYPzh6hGoZw",
+  "ParentRef": "n_ONu_ASNUGTQtyrWizl0A/3S9l-KZScUOW1TtCRGXFYA",
+  "Created": "2025-01-07T08:40:26.2787441Z",
+  "Updated": "2025-01-07T08:41:20.6512027Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

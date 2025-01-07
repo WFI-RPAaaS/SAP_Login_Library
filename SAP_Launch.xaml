@@ -1,0 +1,138 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SAP_Launch" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1150,1108" sap2010:WorkflowViewState.IdRef="SAP_Launch_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="SAP_Launch" sap:VirtualizedContainerService.HintSize="1112,1043.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Lunch" sap:VirtualizedContainerService.HintSize="1050,932.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="ae23b71f-e5c5-447e-b0eb-8a200b997094" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,635.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Logon'" sap:VirtualizedContainerService.HintSize="954,522" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ae23b71f-e5c5-447e-b0eb-8a200b997094" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,260.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,147.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;SAP Lauched Successfully&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,260.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,147.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Error]" Message="[&quot;SAP in Not Opened&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable CVScreenId="05cae26c-9afc-4e27-b63e-6259bdddbd0a" ContentHash="GOopA4Vxik6Gi8fHJ5F4mw" CvElementArea="20, 48, 230, 48" CvTextArea="25, 61, 69, 24" CvTextArgument="Log On" CvType="Button" DesignTimeRectangle="22, 49, 77, 46" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Logon'" FullSelectorArgument="&lt;wnd title='&amp;amp;Log On' aaname='Log On' /&gt;" FuzzySelectorArgument="&lt;wnd title='&amp;amp;Log On' aaname='Log On' check:text='unchecked' /&gt;" Guid="d008c960-ac49-4e8c-b702-83bd8fd80652" InformativeScreenshot="b2961cf49f613ffa7d18d2b505cdbfd8.png" Reference="n_ONu_ASNUGTQtyrWizl0A/lQJri8hSrUSLYPzh6hGoZw" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 800' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" ContentHash="j9P41nivxkuAw327lVuIvw" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPGUI\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAALfSURBVGhD7ZZLTBNhFIXr2sdKNybMmOiCiAg+dhJT1I1BXZgYoxuJaeJCglp84MpEkTcqKBoSiYEWiCUsfMWNQWmtVuUhWFqoRGNAfCVQmw64qBz/W4faoaUg02lo8n/JWfec0zv3vzoOh8PhcDgcFQBYxSQmqZbqPn3/1fTU4x247xxzJYMe9Y+5hr5NDgZ+TzWyAKt1NpfXuqveBeFKd1Jov2kAvcP+np9SIC04QskSYM3VbhxsGsS7z5KVzI/7A0uSKkDOHTf6RqS3zPzmoPFpFnsAkelwiwfuLxN21vpa2fY/FnMAGhvW/FT/qOTwTQS2ypaVzAywscoOfcVj6MseJEAPsaHsGcTK1wrj0zrU7KGZ72TNr5PtRqIIUNWJvJrr6DNlot+cqqmcpvW4V7sH6YXNEEpsbFS6Qsap+X0NbjhHJRtrfotsNTrhAcTKNzhbfRk/7q6Et3WZpuq4kYmdxwognLNALHsRMk86YB5E74i/xysFUmWbszMzwJlrRZoGGLOsgK02A1mG0xBONrD2n7N//m/71DyZZ9umg22bjNCqjEWiA9hvpmOH4QSEU40QijtC5kk0NtQ8mZftzU2iAlDz7TWZ2HbUCMFoimiePliaeRqbeTU/TSICjLcuh+NWGvS5xyHk1yuapz1Pq5K2zZwfbDS0DkDmn1RvQtaR/AjzJHqkaM/HXJWx0DIAjQ01HzSfVwexqB0iW9X0W/IjFXxhZ32k5kN4AHoHckpvo7RkL8ovZjPpVenShd3YbjAihTUfbp5EhxndNlHPg/9BEYA9JmKxFUJhG1KMZiaTOhWYIZxvC45NePN0EstXpfIwWwjKAHII9rSLFa/iIoGNZfjMR9zzaokMoI2o+aj3vFoSFWDWe14tWgeY855Xi5YB5FUZ+55Xi8Pjs+a2vEd2nTPuMliGaOZj3/Nq+fB1srzro9/6csgXdzmHJcuCzgMOh8PhcDgczjzQ6f4AXL+qBbprYDoAAAAASUVORK5CYII=" InformativeScreenshot="cc2c7518914df8ed8f987c2ca7a4b81d.png" Reference="n_ONu_ASNUGTQtyrWizl0A/3S9l-KZScUOW1TtCRGXFYA" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 800' /&gt;" Title="SAP Logon 800" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

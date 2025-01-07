@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GOopA4Vxik6Gi8fHJ5F4mw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="05cae26c-9afc-4e27-b63e-6259bdddbd0a" CvElementArea="20, 48, 230, 48" CvTextArea="25, 61, 69, 24" CvTextArgument="Log On" CvType="Button" DesignTimeRectangle="22, 49, 77, 46" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd title='&amp;amp;Log On' aaname='Log On' /&gt;" FuzzySelectorArgument="&lt;wnd title='&amp;amp;Log On' aaname='Log On' check:text='unchecked' /&gt;" Guid="d008c960-ac49-4e8c-b702-83bd8fd80652" ScopeSelectorArgument="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 800' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b2961cf49f613ffa7d18d2b505cdbfd8.png" xmlns="">0qZL7InTOmkCuMqMyV6sVtg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

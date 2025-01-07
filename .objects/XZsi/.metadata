@@ -1,0 +1,11 @@
+﻿{
+  "Name": "SAP",
+  "Type": "App",
+  "Id": "XZsivcuCtEW68Y8ad4_jKA",
+  "Reference": "n_ONu_ASNUGTQtyrWizl0A/XZsivcuCtEW68Y8ad4_jKA",
+  "Created": "2025-01-07T08:36:49.397256Z",
+  "Updated": "2025-01-07T08:36:49.397256Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
